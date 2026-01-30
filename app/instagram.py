@@ -2,7 +2,7 @@
 import os
 import requests
 
-SESSIONID = os.environ.get("hmac.AR2vh1btke1C1NE7KGgQrez3SndLEVSwODh497yg8UNjPi-f")
+SESSIONID = os.environ.get("19c1068529a-41da83")
 
 if not SESSIONID:
     raise RuntimeError("INSTAGRAM_SESSIONID is missing")
